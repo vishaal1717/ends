@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Email Threat Detector",
+  "version": "1.0.0",
+  "description": "A lightweight demo that checks the current page for common email threat signals.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_title": "Email Threat Detector",
+    "default_popup": "popup.html"
+  }
+}

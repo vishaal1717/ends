@@ -1,0 +1,53 @@
+* { box-sizing: border-box; }
+
+:root {
+  color-scheme: dark;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #101713;
+  color: #f1f5f2;
+}
+
+body {
+  width: 360px;
+  min-height: 500px;
+  margin: 0;
+  padding: 28px;
+  background: radial-gradient(ellipse at 10% 0%, #20372b 0, #101713 55%);
+}
+
+.login-shell { padding-top: 22px; }
+.brand-mark {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border: 1px solid #4a755a;
+  border-radius: 12px;
+  background: #1b2c22;
+  color: #a9efbc;
+  font-size: 14px;
+  font-weight: 750;
+}
+.eyebrow { margin: 22px 0 8px; color: #9caea2; font-size: 10px; font-weight: 700; letter-spacing: 1.2px; }
+h1 { margin: 0; font-size: 25px; font-weight: 650; }
+.intro { margin: 9px 0 26px; color: #aab7ae; font-size: 13px; line-height: 1.5; }
+form > label { display: block; margin: 16px 0 7px; color: #d5dfd8; font-size: 12px; }
+input[type="email"], input[type="password"] {
+  width: 100%;
+  height: 42px;
+  padding: 0 12px;
+  border: 1px solid #38483d;
+  border-radius: 7px;
+  outline: none;
+  background: #151e18;
+  color: #f1f5f2;
+  font: inherit;
+}
+input:focus { border-color: #85d39a; box-shadow: 0 0 0 2px #85d39a22; }
+.form-options { display: flex; justify-content: space-between; align-items: center; margin: 15px 0 4px; font-size: 11px; }
+.remember { display: inline-flex; align-items: center; gap: 7px; color: #bdc9c0; }
+.remember input { accent-color: #71ca89; }
+.text-button { padding: 4px 0; border: 0; background: none; color: #a9efbc; font: inherit; cursor: pointer; }
+.message { min-height: 17px; margin: 8px 0; color: #ff9a91; font-size: 11px; }
+.login-button { width: 100%; height: 43px; border: 0; border-radius: 7px; background: #78d18f; color: #102016; font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
+.login-button:hover { background: #91e2a5; }
